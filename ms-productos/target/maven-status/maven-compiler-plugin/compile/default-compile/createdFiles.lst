@@ -1,0 +1,11 @@
+com\lab\productos\domain\model\Producto.class
+com\lab\productos\infrastructure\adapter\in\rest\ProductoController.class
+com\lab\productos\infrastructure\adapter\out\persistence\ProductoR2dbcRepository.class
+com\lab\productos\domain\port\in\ProductoServicePort.class
+com\lab\productos\infrastructure\adapter\out\persistence\ProductoPersistenceAdapter.class
+com\lab\productos\domain\model\Producto$ProductoBuilder.class
+com\lab\productos\domain\port\out\ProductoRepositoryPort.class
+com\lab\productos\infrastructure\adapter\out\persistence\ProductoEntity.class
+com\lab\productos\application\usecase\ProductoUseCase.class
+com\lab\productos\MsProductosApplication.class
+com\lab\productos\infrastructure\adapter\out\persistence\ProductoEntity$ProductoEntityBuilder.class

@@ -1,0 +1,42 @@
+server:
+  port: ${SERVER_PORT:8082}
+
+spring:
+  application:
+    name: ms-pedidos
+
+  r2dbc:
+    url: r2dbc:postgresql://ep-restless-bonus-atd7h7vc-pooler.c-9.us-east-1.aws.neon.tech/neondb?sslMode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_JFIRq1Q8EWBs
+    pool:
+      enabled: true
+      initial-size: 1
+      max-size: 5
+      max-idle-time: 10m
+      validation-query: SELECT 1
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+ms:
+  productos:
+    url: ${MS_PRODUCTOS_URL:http://localhost:8081}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true

@@ -1,0 +1,9 @@
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\domain\model\Producto.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\MsProductosApplication.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\infrastructure\adapter\out\persistence\ProductoPersistenceAdapter.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\infrastructure\adapter\out\persistence\ProductoR2dbcRepository.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\application\usecase\ProductoUseCase.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\infrastructure\adapter\in\rest\ProductoController.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\infrastructure\adapter\out\persistence\ProductoEntity.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\domain\port\in\ProductoServicePort.java
+C:\Users\Napaico\Documents\LAB01\LAB01_NapaicoAngelina_26\ms-productos\src\main\java\com\lab\productos\domain\port\out\ProductoRepositoryPort.java
