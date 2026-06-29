@@ -22,12 +22,12 @@ spec:
           env:
             - name: SERVER_PORT
               value: "8082"
-            - name: SPRING_DATASOURCE_URL
-              value: "jdbc:postgresql://ep-snowy-sound-ahr3mcfm.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
-            - name: SPRING_DATASOURCE_USERNAME
+            - name: SPRING_R2DBC_URL
+              value: "r2dbc:postgresql://ep-restless-bonus-atd7h7vc-pooler.c-9.us-east-1.aws.neon.tech/neondb?sslMode=require&channel_binding=require"
+            - name: SPRING_R2DBC_USERNAME
               value: "neondb_owner"
-            - name: SPRING_DATASOURCE_PASSWORD
-              value: "npg_0NUsojdpczg9"
-            # ms-pedidos se comunica con ms-productos via nombre del Service de K8s
+            - name: SPRING_R2DBC_PASSWORD
+              value: "npg_JFIRq1Q8EWBs"
+            # ms-pedidos llama a ms-productos via DNS interno de Kubernetes
             - name: MS_PRODUCTOS_URL
-              value: "http://ms-productos-service:8081/api/productos"
+              value: "http://ms-productos-service:8081"
